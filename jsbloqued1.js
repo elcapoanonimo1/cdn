@@ -12,7 +12,7 @@ for (var x = 0; x < columns; x++) drops[x] = 1;
 function draw() {
 	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
 	ctx.fillRect(0, 0, c.width, c.height);
-	ctx.fillStyle = "#0F0";
+	ctx.fillStyle = "#FF0000";
 	ctx.font = font_size + "px arial";
 	for (var i = 0; i < drops.length; i++) {
 		var text = chinese[Math.floor(Math.random() * chinese.length)];
